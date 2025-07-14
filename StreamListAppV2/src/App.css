@@ -1,0 +1,64 @@
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.input-section input {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  max-width: 400px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.icons svg {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.icons svg:hover {
+  color: #007bff;
+}
