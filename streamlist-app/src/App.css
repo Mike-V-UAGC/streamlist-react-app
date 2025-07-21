@@ -1,0 +1,42 @@
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+.nav-links li {
+  display: inline;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.nav-links a:hover {
+  background: #444;
+}
+
+.home-container,
+.completed-container,
+.settings-container {
+  margin: 2em auto;
+  max-width: 600px;
+  padding: 2em;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #ccc;
+}
